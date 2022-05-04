@@ -1,0 +1,32 @@
+{
+  "name": "simple-nodejs-app",
+  "version": "1.0.0",
+  "description": "Basic NodeJS with Docker and Kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muharemax/simple-nodejs-app.git"
+  },
+  "keywords": [
+    "nodejs",
+    "docker",
+    "kubernetes"
+  ],
+  "author": "Muharem Corbadzic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muharemax/simple-nodejs-app/issues"
+  },
+  "homepage": "https://github.com/muharemax/simple-nodejs-app#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "jest": "^28.0.3"
+  },
+  "devDependencies": {
+    "supertest": "^6.2.3"
+  }
+}
