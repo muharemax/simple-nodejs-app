@@ -1,1 +1,1 @@
-# simple-nodejs-app
+# Simple NodJS app
