@@ -51,3 +51,15 @@ node index.js
 ```
 
 The app will listen on port `4545`.
+
+## Runing using Docker
+
+### Required
+1. [Docker](https://www.docker.com/products/docker)
+
+### Clone and Run
+
+1. `git clone https://github.com/muharemax/simple-nodejs-app.git`
+2. `cd simple-nodejs-app`
+3. `docker build -t simple-nodejs-app .`
+4. `docker run -d -p4545 --name simple-nodejs-app simple-nodejs-app`
