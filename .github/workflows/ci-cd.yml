@@ -34,7 +34,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: chorba/node-js-repo
-        tags: latest:${{ github.run_num }}
+        tags: latest, ${{ github.run_number }}
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
