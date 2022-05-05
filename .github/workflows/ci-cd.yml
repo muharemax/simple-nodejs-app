@@ -31,10 +31,11 @@ jobs:
     - run: npm test
     
     - name: Build and Push Docker Image
-      uses: mr-smithers-excellent/docker-build-push@v5
+      #uses: mr-smithers-excellent/docker-build-push@v5
+      uses: docker/build-push-action@v2
       with:
         image: chorba/node-js-repo
-        tags: v1, latest
+        tags: latest
         registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
