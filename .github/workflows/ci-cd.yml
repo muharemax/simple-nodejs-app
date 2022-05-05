@@ -39,4 +39,4 @@ jobs:
       with:
         context: ./Dockerfile
         push: true
-          tags: chorba/node-js-repo/app:latest, chorba/node-js-repo:${{ github.run_number }}
+        tags: chorba/node-js-repo/app:latest, chorba/node-js-repo:${{ github.run_number }}
