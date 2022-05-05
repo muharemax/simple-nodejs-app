@@ -16,4 +16,5 @@ RUN npm install
 COPY . .
 
 EXPOSE 4545
-CMD [ "node", "index.js" ]
+
+ENTRYPOINT [ "node", "index.js" ]
