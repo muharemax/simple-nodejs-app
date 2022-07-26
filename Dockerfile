@@ -15,6 +15,7 @@ RUN npm install
 # Bundle app source
 COPY . .
 
+#REST API port to make a calls
 EXPOSE 4545
 
 ENTRYPOINT [ "node", "index.js" ]
